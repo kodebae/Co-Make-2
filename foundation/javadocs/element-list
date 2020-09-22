@@ -1,8 +1,8 @@
-com.lambdaschool.foundation
-com.lambdaschool.foundation.config
-com.lambdaschool.foundation.controllers
-com.lambdaschool.foundation.exceptions
-com.lambdaschool.foundation.handlers
-com.lambdaschool.foundation.models
-com.lambdaschool.foundation.repository
-com.lambdaschool.foundation.services
+com.lambdaschool.comake
+com.lambdaschool.comake.config
+com.lambdaschool.comake.controllers
+com.lambdaschool.comake.exceptions
+com.lambdaschool.comake.handlers
+com.lambdaschool.comake.models
+com.lambdaschool.comake.repository
+com.lambdaschool.comake.services
