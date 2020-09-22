@@ -46,3 +46,5 @@ For later versions, government officials can have a different view or see additi
 4. Ability to add images to the issue page with an API like Cloudinary
 
 5. Create a way to filter issues by `city` or `zip code`
+
+Copy of the product vision document. ---> https://docs.google.com/document/d/1DVZo9RarpuL0v6xRtb4TtGmn2966fbHkQ02JWzG15ns/edit#
