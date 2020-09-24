@@ -1,3 +1,51 @@
+
+Co Make
+With Co Make you can make your voice heard on the issues you would like to see resolved in your community.
+
+☝️Pitch
+Ever get frustrated that a problem in your town or neighborhood goes ages without being resolved? You might have road issues (potholes, dangerous areas), overgrown plants, or anything else that makes living where you live a little less pleasant. With Co-make you can make your voice heard on the issues you would like to see resolved in your community.
+
+Three simple steps:
+
+Describe the problem.
+Other locals upvote the problem.
+Problems with the most upvote get prioritized by local government or HOA’s to be resolved first.
+As well as seeing real change in your community, you get rewards for being a positive community member in the form of points, freebies and local recognition.
+
+The problem we are solving: the disintegration in the relationship between local government and the people they represent. The feeling of apathy many have towards local issues. The inability of local government to reach and listen to their constituents effectively.
+
+✅ MVP
+User types: for MVP there is just one user. All users can see all the posts. For later versions, government officials can have a different view or see additional analytics information.
+
+Sign in / sign up
+
+Create a user profile
+
+Post issue: upload / take photo and describe issue (photo not necessary for MVP on desktop)
+
+Edit and delete an issue
+
+Upvote other issues
+
+View dashboard of issue in your area
+
+🏃‍♀️Stretch
+Web:
+
+Comment on other issues
+
+View personal activity log
+
+Share issues on social media
+
+Ability to add images to the issue page with an API like Cloudinary
+
+Create a way to filter issues by city or zip code
+
+Copy of the product vision document. ---> https://docs.google.com/document/d/1DVZo9RarpuL0v6xRtb4TtGmn2966fbHkQ02JWzG15ns/edit#
+
+
+
 # Java User Model Final Version / Exceptions Final Application / Security Initial Application
 
 ## Introduction

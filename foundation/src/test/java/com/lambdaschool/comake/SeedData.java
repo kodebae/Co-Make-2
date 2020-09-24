@@ -7,6 +7,7 @@ import com.lambdaschool.comake.models.Role;
 import com.lambdaschool.comake.models.User;
 import com.lambdaschool.comake.models.UserRoles;
 import com.lambdaschool.comake.models.Useremail;
+import com.lambdaschool.comake.services.IssueService;
 import com.lambdaschool.comake.services.RoleService;
 import com.lambdaschool.comake.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,6 +40,9 @@ public class SeedData
     @Autowired
     UserService userService;
 
+    @Autowired
+    IssueService issueService;
+
     /**
      * Generates test, seed data for our application
      * First a set of known data is seeded into our database.
@@ -55,6 +59,7 @@ public class SeedData
     {
         userService.deleteAll();
         roleService.deleteAll();
+        issueService.deleteAll();
         Role r1 = new Role("admin");
         Role r2 = new Role("user");
         Role r3 = new Role("data");
@@ -125,6 +130,22 @@ public class SeedData
         u5.getRoles()
                 .add(new UserRoles(u5, r2));
         userService.save(u5);
+
+//        /************
+//         * Seed Issues
+//         ************/
+//        Description i1 = new Description("First Issue");
+//        Description i2 = new Description("Second Issue");
+//        Description i3 = new Description("Third Issue");
+//        Description i4 = new Description("Fourth Issue");
+//        Description i5 = new Description("Fith Issue");
+//
+//        i1 = descriptionService.save(i1);
+//        i2 = descriptionService.save(i2);
+//        i3 = descriptionService.save(i3);
+//        i4 = descriptionService.save(i4);
+//        i5 = descriptionService.save(i5);
+
 
         if (false)
         {

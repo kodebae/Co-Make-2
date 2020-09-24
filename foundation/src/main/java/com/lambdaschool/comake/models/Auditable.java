@@ -24,6 +24,7 @@ import static javax.persistence.TemporalType.TIMESTAMP;
  * AuditingEntityListener.class - The class that captures the data for and updates the annotations used in auditing -
  * CreatedBy, CreatedDate, ModifiedBy, ModifiedDate
  */
+
 @MappedSuperclass
 @EntityListeners(AuditingEntityListener.class)
 abstract class Auditable

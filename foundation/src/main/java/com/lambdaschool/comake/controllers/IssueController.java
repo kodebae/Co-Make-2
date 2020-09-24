@@ -1,7 +1,7 @@
 package com.lambdaschool.comake.controllers;
 
-//import com.lambdaschool.comake.models.Issue;
-//import com.lambdaschool.comake.services.IssueService;
+import com.lambdaschool.comake.models.Issue;
+import com.lambdaschool.comake.services.IssueService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -26,13 +26,13 @@ import java.util.List;
 @RequestMapping("/issues")
 public class IssueController {
     @Autowired
-    IssueService IssueService;
+    IssueService issueService;
 
     // http://localhost:2019/issues/issues
     @GetMapping(value = "/issues",
             produces = {"application/json"})
     public ResponseEntity<?> listAllIssues(HttpServletRequest request) {
-        List<Issues> myIssues = issueService.findAll();
+        List<Issue> myIssues = IssueService.findAllIssues();
         return new ResponseEntity<>(myIssues,
                 HttpStatus.OK);
     }
@@ -43,7 +43,7 @@ public class IssueController {
     public ResponseEntity<?> getIssueById(HttpServletRequest request,
                                           @PathVariable
                                                   Long issueId) {
-        Issue s = issueService.findIssueById(issueId);
+        Issue s = issueService.findIssuesById(issueId);
         return new ResponseEntity<>(s,
                 HttpStatus.OK);
     }
